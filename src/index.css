@@ -1,0 +1,61 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #1a1a1a; /* Dark fallback */
+}
+
+/* Glassmorphism Classes */
+.glass-window {
+  background-color: rgba(40, 40, 45, 0.7);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  /* Add transition here for smoother animations */
+  transition: transform 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+
+.window-title-bar {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/* NEW: Activities View Styles */
+.activities-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+/* Window Open/Close Animation */
+.window-enter-active {
+  animation: window-in 300ms ease-out;
+}
+.window-exit-active {
+  animation: window-in 300ms ease-out reverse;
+}
+
+@keyframes window-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.glass-dock {
+  background-color: rgba(25, 25, 30, 0.5);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.terminal-window {
+  width: 800px !important;
+  height: 550px !important;
+}
+
