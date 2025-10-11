@@ -302,6 +302,8 @@ function App() {
           <div className="flex flex-col gap-3">
             <a target="_blank" href="mailto:lakshyasaxena272@gmail.com" className="text-gray-200 hover:text-teal-300 flex items-center gap-3"><FaEnvelope size={20} /><span>lakshyasaxena272@gmail.com</span></a>
             <a target="_blank" href="http://www.linkedin.com/in/lakshya-saxena-188273364" className="text-gray-200 hover:text-teal-300 flex items-center gap-3"><FaLinkedin size={20} /><span>linkedin.com/in/lakshya-saxena-188273364</span></a>
+            <a href="tel:+918433463288" className="text-gray-200 hover:text-teal-300 flex items-center gap-3 transition-colors"> <FaPhone size={20} /><span>+91 8433463288 (Call)</span></a>
+            <a target="_blank" rel="noopener noreferrer" href="https://wa.me/8433463288" className="text-gray-200 hover:text-teal-300 flex items-center gap-3 transition-colors"><FaWhatsapp size={20} /><span>+91 8433463288 (WhatsApp)</span></a>
           </div>
         </Window>
       </CSSTransition>
