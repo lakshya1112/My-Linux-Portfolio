@@ -11,7 +11,7 @@ import WeatherWidget from "./components/WeatherWidget";
 import { ProjectCard, SkillCategory, SkillTag } from './components/UIComponents';
 import { CSSTransition } from "react-transition-group";
 // THIS IS THE CORRECTED LINE
-import { FaJava, FaReact, FaDatabase, FaDocker, FaGithub, FaLinkedin, FaEnvelope, FaDownload } from "react-icons/fa";
+import { FaJava, FaReact, FaDatabase, FaDocker, FaGithub, FaLinkedin, FaEnvelope, FaDownload, FaPhone, FaWhatsapp } from "react-icons/fa";
 
 import SystemMonitor from "./components/SystemMonitor";
 import NotepadWidget from "./components/NotepadWidget";
